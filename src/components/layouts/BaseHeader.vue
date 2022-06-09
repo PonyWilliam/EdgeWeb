@@ -1,6 +1,7 @@
 <template>
   <el-menu class="el-menu-demo" mode="horizontal">
-    <el-menu-item index="1">控制中心</el-menu-item>
+    <router-link to="/"><el-menu-item index="1">控制面板</el-menu-item></router-link>
+    <router-link to="/dashboard"><el-menu-item index="2">仪表面板</el-menu-item></router-link>
     <!-- <el-sub-menu index="2">
       <template #title>Workspace</template>
       <el-menu-item index="2-1">item one</el-menu-item>

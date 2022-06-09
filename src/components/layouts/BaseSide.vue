@@ -12,8 +12,9 @@
         <span></span>
       </template>
       <el-menu-item-group>
-        <template #title><span>控制</span></template>
-        <el-menu-item index="1-1">控制中心</el-menu-item>
+        <template #title><span>面板</span></template>
+        <router-link to="/"><el-menu-item index="1-1">控制面板</el-menu-item></router-link>
+        <router-link to="/dashboard"><el-menu-item index="1-2">仪表面板</el-menu-item></router-link>
       </el-menu-item-group>
       <!--
       <el-menu-item-group title="Group Two">
@@ -38,11 +39,11 @@ import {
 } from '@element-plus/icons-vue'
 
 const isCollapse = ref(true)
-const handleOpen = (key: string, keyPath: string[]) => {
-  console.log(key, keyPath)
-}
-const handleClose = (key: string, keyPath: string[]) => {
-  console.log(key, keyPath)
-}
+// const handleOpen = (key: string, keyPath: string[]) => {
+//   console.log(key, keyPath)
+// }
+// const handleClose = (key: string, keyPath: string[]) => {
+//   console.log(key, keyPath)
+// }
 </script>
 

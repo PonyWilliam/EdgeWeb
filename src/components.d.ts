@@ -15,7 +15,6 @@ declare module 'vue' {
     ElMenuItemGroup: typeof import('element-plus/es')['ElMenuItemGroup']
     ElPopconfirm: typeof import('element-plus/es')['ElPopconfirm']
     ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
   }
 }
 
